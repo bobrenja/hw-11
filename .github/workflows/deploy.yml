@@ -6,9 +6,10 @@ on:
 
 jobs:
   build-and-deploy:
-   env:
-    API_KEY: 123450
+   
     runs-on: ubuntu-latest
+    env:
+    API_KEY: 123450
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v2.3.1
