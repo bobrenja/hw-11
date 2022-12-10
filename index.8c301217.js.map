@@ -1,0 +1,1 @@
+{"mappings":"AAKAA,QAAQC,IADI","sources":["src/index.js"],"sourcesContent":["\n// import * as dotenv from 'dotenv' // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import\n// dotenv.config()\n\nlet {API_KEY} = process.env\nconsole.log(API_KEY)\n\n"],"names":["console","log"],"version":3,"file":"index.8c301217.js.map"}
